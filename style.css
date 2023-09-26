@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo{
+    background-color: #604829;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.topo div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.topo a{
+    color: #c4a47c;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 3px 5px 2px black;
+    font-family:"oswald", sans-serif; 
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.topo img {
+    width: 100px;
+    position: relative;
+    left: 15%;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-family: "lato, sans serif";
+    position: relative;
+}
+.nome{
+    color: #c4a47c; 
+    font-weight: bold;
+}
+.imagem1, .imagem2, .imagem3, .imagem4, .imagem5{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.imagem1{
+    background-image: url('./img/cafeteria1.png');
+    height: 100vh;
+}
+.imagem2{
+    background-image: url('./img/cafeteria4.jpg');
+    height: 50vh;
+}
+.imagem3{
+    background-image: url('./img/cafeteria3.jpg');
+    height: 50vh;
+}
+.imagem4{
+    background-image: url('./img/Cafeteria.png');
+    height: 100vh;
+}
+.imagem5{
+    background-image: url('./img/cafeteria2.jpg');
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+    left: 0;
+    font-family: "fraunces", serif;
+}
+h2{
+    font-family: "lato";
+    color: #c4a47c;
+    text-align: center;
+}
+.base h3{
+    width: 400px;
+    color: white;
+    font-family: "fraunces";
+    background-color: #604829;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+}
+p{
+    font-family: "lato";
+    text-align: center;
+    line-height: 30px;
+    margin: 0 200px 0 200px;
+}
+.container h2{
+    background-color: #604829;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    font-family: "oswald";
+}
+.contato {
+    background-color: #604829;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    bottom:8%;
+    right: 0;
+    left: 0;
+}
+.contato p{
+    color: white;
+    text-align: center;
+    font-family: "oswald";
+    margin: auto;
+
+}
+.container iframe{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 0;
+}
+.horario h2{
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    right: 0;
+    left: 0;
+}
+.lista{
+    position: absolute;
+    margin: auto 0;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "oswald, sans-serif";
+}
+.lista li{
+    position: relative;
+}
+.lista li h3{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    font-family: "oswald";
+}
+.lista li p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #acacac;
+    font-weight: 900;
+}
+.lista li span{
+    width: 22%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #c4a47c; 
+    font-weight: 900;
+    font-family: "oswald";
+}
+.lista li div{
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC   
+}
+.rodape a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    background-image: url('./img/seta-para-cima.png');
+    background-color: #c4a47c;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+}
+
